@@ -1,5 +1,5 @@
 ################
-# Martín Carosanti - @mcarosanti
+# Martín Carosanti - Hernán Palumbo 
 # 5. Inversión de mayusculas
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
