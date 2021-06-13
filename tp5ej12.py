@@ -1,5 +1,5 @@
 ################
-# Martín Carosanti - @mcarosanti
+# Martín Carosanti - Hernán Palumbo 
 # 12. Comparación de listas
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
