@@ -1,5 +1,5 @@
 ################
-# Martín Carosanti - @mcarosanti
+# Martín Carosanti - Hernán Palumbo 
 # 14. Números capicúa
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
