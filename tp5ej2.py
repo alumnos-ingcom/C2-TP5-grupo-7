@@ -1,5 +1,5 @@
 ################
-# Martín Carosanti - @mcarosanti
+# Martín Carosanti - Hernán Palumbo 
 # 2. Fibonacci 
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
