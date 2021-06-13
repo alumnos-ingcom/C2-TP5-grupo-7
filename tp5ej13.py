@@ -1,5 +1,5 @@
 ################
-# Martín Carosanti - @mcarosanti
+# Martín Carosanti - Hernán Palumbo 
 # 13. Búsqueda de palabras
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
