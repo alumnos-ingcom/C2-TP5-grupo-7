@@ -1,5 +1,5 @@
 ################
-# Martín Carosanti - @mcarosanti
+# Martín Carosanti -Hernán Palumbo 
 # 10. Texto binario
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
