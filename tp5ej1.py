@@ -1,5 +1,5 @@
 ################
-# Martín Carosanti - @mcarosanti
+# Martín Carosanti - Hernán Palumbo 
 # 1. Pares e impares
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
