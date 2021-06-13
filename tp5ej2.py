@@ -27,10 +27,11 @@ def lista_fibonacci(numero):
     
 def prueba(lista):
     """Se imprime la lista de valores Fibonacci en la cantidad N solicitada."""
+    numero=pedir_numero()
+    lista=lista_fibonacci(numero)
     print(f"Los {numero} valores de Fibonacci son: {lista}")
 
-numero=pedir_numero()
-lista=lista_fibonacci(numero)
+
     
 if __name__ == "__main__":
-    prueba(lista)
+    prueba()
