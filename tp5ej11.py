@@ -20,7 +20,8 @@ def media_movil(lista_numeros, cantidad_valores):
 def prueba():
     """Toda la interacción con el usuario va acá"""
     lista = [1,2,4,5,6,7,23,100,100,100]
-    print(media_movil(lista, 3))
+    valores_media_movil = media_movil(lista)
+    print(valores_media_movil)
 
 if __name__ == "__main__":
     prueba()
