@@ -21,13 +21,16 @@ def balanceado(expresion, caracter_verificar_apertura, caracter_verificar_cierre
     else:
         return False
 
-def prueba(expresion, caracter_verificar_apertura, caracter_verificar_cierre):
+def prueba():
     """Toda la interacción con el usuario va acá"""
+    expresion = '[asd][[[]]aasda]'
+    caracter_verificar_apertura = '['
+    caracter_verificar_cierre = ']'
     if balanceado(expresion, caracter_verificar_apertura, caracter_verificar_cierre):
         print('la expresion se encuentra balanceada')
     else:
         print('la expresion no se encuentra balanceada')
 
 if __name__ == "__main__":
-    prueba('[asd][[[]]aasda]', '[', ']')
+    prueba()
 
