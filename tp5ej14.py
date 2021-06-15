@@ -3,19 +3,16 @@
 # 14. Números capicúa
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
+
 """ Escribir una función que determine si un numero entero positivo es capicúa """
+def es_capicua(numero):
+    """Comparamos la posicion de los valores mayores a 0 en la lista para saber si es el mismo"""
+    return str(numero) == str(numero)[::-1]
 
 def prueba():
-    """Comparamos la posicion de los valores mayores a 0 en la lista para saber si es el mismo"""
-    if numero >= 0:
-        if str(numero) == str(numero)[::-1]:
-            """Si el valor es el mismo en la posicion opuesta en la lista imprimimos capicúa"""
-            print("El # %i es capicúa."  % numero)
-        else:
-            """Si el valor NO es el mismo en la posicion opuesta en la lista imprimimos no es capicúa"""
-            print("El # %i NO es capicúa." % numero)
-
-numero=int(input("Digite un numero para comprobar: "))
+    numero=int(input("Digite un numero para comprobar: "))
+    verificar_capicua = es_capicua(numero)
+    print(f'El numero {numero}', 'es capicua' if verificar_capicua else 'NO es capicua')
 
 if __name__ == "__main__":
     prueba()
