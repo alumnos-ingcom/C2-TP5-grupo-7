@@ -32,13 +32,12 @@ def binario_a_decimal(binario1):
 
 def prueba():
     """Pedimos un numero entero al usuario e imprimimos la lista. """
-entero = int(input("Ingrese un número entero: "))
-binario = entero_a_binario(entero)
-print(f"El número {entero} es: {binario} en binario")
+    entero = int(input("Ingrese un número entero: "))
+    binario = entero_a_binario(entero)
+    print(f"El número {entero} es: {binario} en binario")
 
-binario1 = input("Ingrese un binario: ")
-decimal = binario_a_decimal(binario1)
-print(f"El binario: {binario1} es el numero: {decimal}")
+    decimal = binario_a_decimal(binario)
+    print(f"El binario: {binario} es el numero: {decimal}")
 
 if __name__ == "__main__":
     prueba()
