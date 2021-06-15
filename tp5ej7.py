@@ -21,7 +21,8 @@ def distancia(numero_uno, numero_dos):
 def prueba():
     numero_uno = -6.5
     numero_dos = 6
-    print(f'la distancia entre {numero_uno} y {numero_dos} es: ', distancia(numero_uno, numero_dos))
+    distancia_entre_numeros = distancia(numero_uno, numero_dos)
+    print(f'la distancia entre {numero_uno} y {numero_dos} es: ', distancia_entre_numeros )
 
 if __name__ == "__main__":
     prueba()
