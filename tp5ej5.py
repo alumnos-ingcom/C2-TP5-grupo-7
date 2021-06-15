@@ -13,10 +13,10 @@ def cambiar_mayusculas_minusculas(texto):
 
 def prueba():
     """Pedimos el texto al usuario y lo imprimimos convertido."""
-    print(f"El texto convertido es {conversion}  ")
-texto =str(input("Introduzca un texto: "))
+    texto =str(input("Introduzca un texto: "))
+    conversion=cambiar_mayusculas_minusculas(texto)
+    print(f"El texto convertido es: {conversion}  ")
 
-conversion=cambiar_mayusculas_minusculas(texto)
 
 if __name__ == "__main__":
     prueba()
